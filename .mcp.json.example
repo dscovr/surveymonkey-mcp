@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "surveymonkey": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/dscovr/surveymonkey-mcp",
+        "surveymonkey-mcp"
+      ],
+      "env": {
+        "SURVEYMONKEY_TOKEN": "YOUR_SURVEYMONKEY_ACCESS_TOKEN"
+      }
+    }
+  }
+}
